@@ -189,11 +189,30 @@ function askAndRender(userText, intentOverride) {
   }, 220);
 }
 
+// ---------- Mobile drawer ----------
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('sidebar-overlay');
+const menuToggle = document.getElementById('menu-toggle');
+const sidebarClose = document.getElementById('sidebar-close');
+
+function openDrawer() {
+  sidebar.classList.add('open');
+  overlay.classList.add('visible');
+}
+function closeDrawer() {
+  sidebar.classList.remove('open');
+  overlay.classList.remove('visible');
+}
+menuToggle && menuToggle.addEventListener('click', openDrawer);
+sidebarClose && sidebarClose.addEventListener('click', closeDrawer);
+overlay && overlay.addEventListener('click', closeDrawer);
+
 // Sidebar nav
 document.querySelectorAll('.nav-item').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.nav-item').forEach(b => b.classList.remove('active'));
     const section = btn.dataset.section;
+    closeDrawer();
     if (section === 'home') {
       showHomeView();
       return;

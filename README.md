@@ -8,6 +8,8 @@ A single-page portfolio site styled after Claude's chat interface. No server, da
 - `data.js` — all your resume content (edit this to update the site)
 - `script.js` — navigation + chatbot logic (keyword matching against `data.js`)
 
+The layout is responsive: on screens under ~780px wide, the sidebar becomes a slide-in menu (tap the ☰ icon top-left to open it, tap outside or the ✕ to close), and text/spacing scale down for phones.
+
 ## 1. Preview it locally
 You don't need Node or Python for anything except a local preview server:
 
