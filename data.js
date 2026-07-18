@@ -19,9 +19,8 @@ const RESUME = {
           heading: "Newsletters",
           bullets: [
             "Identified content consumption gaps, owned newsletter strategy and execution across TOI properties for 1M+ subscribers, averaging 90K opens; improved TOI Top 10 open rates from 1.8% to 41% through experimentation and segmentation.",
-            "Launched 10+ newsletters from 0→1, including planning, templates, automation, userbase selection and distribution.",
-            "Built AI-generated newsletter workflows using GenAI for curation, summarization, and production, reducing manual effort and turnaround time.",
-            "Tracked engagement KPIs via GA4 and dashboards, improving CTR and engagement by 2.5×."
+            "Launched 10+ newsletters from 0→1, covering planning, templates, automation, userbase selection, and distribution, and tracked engagement KPIs via dashboards, improving CTR and engagement by 2.5×.",
+            "Built AI-generated newsletter workflows for design, content, and production, reducing manual effort and turnaround time."
           ]
         },
         {
@@ -33,27 +32,32 @@ const RESUME = {
           ]
         },
         {
+          heading: "AI-Powered FAQs",
+          bullets: [
+            "Analyzed TOI search behavior and identified that 30%+ of queries were informational, while recency-driven ranking limited contextual content discovery.",
+            "Conceptualized and launched an AI-powered FAQ experience using RAG architecture, embeddings, and grounded content generation to provide 360° context directly within articles.",
+            "Achieved 4% CTR on AI-generated content and 2.5× session duration, laying the foundation for semantic search capabilities and the broader Times IQ GenAI suite."
+          ]
+        },
+        {
           heading: "TOI Games (Analytics & Growth)",
           bullets: [
-            "Improved TOI Games retention by 15–20% through analytics, cohort analysis, and gameplay optimization.",
-            "Analysed acquisition funnels and behavioural data using GA4, driving 20% improvement in user activation.",
+            "Improved TOI Games retention by 15–20% through analytics, cohort analysis, and gameplay optimization, and analysed acquisition funnels and behavioural data using GA4, driving 20% improvement in user activation.",
             "Implemented feedback-driven iterations and engagement studies to improve gameplay experience and user participation."
           ]
         },
         {
           heading: "Young Leaders Kids Masterclass — B2C EdTech Platform",
           bullets: [
-            "Led end-to-end execution of a multi-course EdTech initiative, covering product development, website creation, campaign strategy, enrollment workflows, and operations.",
-            "Designed landing pages, brochures, and lead funnels to drive student acquisition and improve conversions.",
-            "Managed mentor onboarding, batch planning, student communication, and post-purchase engagement across multiple cohorts.",
-            "Enrolled 115+ students and generated 20L+ revenue through digital campaigns, outreach, partnerships, and conversion optimization."
+            "Led end-to-end execution of a multi-course EdTech initiative, covering product development, website creation, campaign strategy, enrollment workflows, operations, and lead funnels to drive student acquisition and improve conversions.",
+            "Managed mentor onboarding, student communication, and post-purchase engagement across multiple cohorts.",
+            "Enrolled 250+ students and generated 30L+ revenue through digital campaigns, outreach, partnerships, and conversion optimization."
           ]
         },
         {
           heading: "Product Growth Initiatives",
           bullets: [
             "MyProfile: Leading development of a personalized profile experience to improve user engagement and retention.",
-            "GN Awards: Managed participation workflows supporting 100K+ user interactions and improved campaign engagement by 25%.",
             "Spearheaded the 0→1 launch of spanish.itimes.com, owning user research, PRDs, execution, and monitoring — resulting in a 7× increase in indexed pages within 2 months."
           ]
         }
@@ -67,8 +71,7 @@ const RESUME = {
         {
           heading: null,
           bullets: [
-            "Stabilized development environments enabling consistent builds across teams.",
-            "Built real-time financial data visualizations using the Perspective library."
+            "Stabilized development environments enabling consistent builds across teams, and built real-time financial data visualizations using the Perspective library."
           ]
         }
       ]
@@ -81,8 +84,7 @@ const RESUME = {
         {
           heading: null,
           bullets: [
-            "Applied AI techniques to aerospace systems research.",
-            "Built predictive maintenance models improving operational reliability."
+            "Applied AI techniques to aerospace systems research, and built predictive maintenance models improving operational reliability."
           ]
         }
       ]

@@ -82,6 +82,15 @@ function renderEducation() {
   return `<h2>Education</h2>${blocks}`;
 }
 
+function renderResume() {
+  return `
+    <h2>Resume</h2>
+    <p>Here's my full resume as a PDF — you can view it directly or download it.</p>
+    <div class="chip-row">
+      <a class="chip" href="resume.pdf" target="_blank" rel="noopener">Open Resume (PDF)</a>
+    </div>`;
+}
+
 function renderContact() {
   return `
     <h2>Get in touch</h2>
@@ -131,6 +140,7 @@ function classify(raw) {
   if (has('skill', 'tech stack', 'tools', 'know', 'python', 'sql', 'react')) return 'skills';
   if (has('education', 'study', 'studied', 'college', 'university', 'degree', 'nsut', 'cgpa')) return 'education';
   if (has('contact', 'email', 'reach', 'phone', 'linkedin', 'github', 'hire')) return 'contact';
+  if (has('resume', 'cv', 'download')) return 'resume';
   return 'fallback';
 }
 
@@ -143,6 +153,7 @@ const RENDERERS = {
   skills: renderSkills,
   education: renderEducation,
   contact: renderContact,
+  resume: renderResume,
   fallback: renderFallback
 };
 
