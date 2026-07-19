@@ -16,7 +16,6 @@ function renderProfile() {
     <p>${esc(RESUME.profile)}</p>
     <div class="chip-row">
       <a class="chip" href="mailto:${RESUME.email}">${RESUME.email}</a>
-      <span class="chip">${RESUME.phone}</span>
       <a class="chip" href="${RESUME.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
       <a class="chip" href="${RESUME.github}" target="_blank" rel="noopener">GitHub</a>
     </div>`;
@@ -97,7 +96,6 @@ function renderContact() {
     <p>Happy to talk product, growth, or AI-driven experiences. Best ways to reach me:</p>
     <div class="chip-row">
       <a class="chip" href="mailto:${RESUME.email}">${RESUME.email}</a>
-      <span class="chip">${RESUME.phone}</span>
       <a class="chip" href="${RESUME.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
       <a class="chip" href="${RESUME.github}" target="_blank" rel="noopener">GitHub</a>
     </div>`;
